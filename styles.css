@@ -1,0 +1,141 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #481010;
+    color: white;
+}
+
+header {
+    background-color: #edd69a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #481010;
+}
+
+/* Main styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+/* Facts section styles */
+#facts {
+    background-color: #f9e79f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#facts h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#facts ul {
+    list-style-type: disc;
+    color: #333;
+    padding-left: 20px;
+}
+
+/* Nutrition section styles */
+#nutrition {
+    background-color: #d5dbdb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#nutrition h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#nutrition ul {
+    color: #333;
+}
+
+#nutrition ul li {
+    margin-bottom: 5px;
+}
+
+/* Hover effect for facts and nutrition sections */
+#facts:hover,
+#nutrition:hover {
+    background-color: #f7dc6f;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for facts list items */
+#facts:hover ul li {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for nutrition list items */
+#nutrition:hover ul li {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .logo img {
+    width: 100px;
+}
+
+footer .company-info p {
+    margin-bottom: 10px;
+}
+
+footer .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contact-form input,
+footer .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+footer .contact-form button {
+    padding: 10px;
+    background-color: #a9cce3;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .contact-form button:hover {
+    background-color: #7fb3d5;
+}
